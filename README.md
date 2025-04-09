@@ -44,7 +44,7 @@ This project is an AI-based Resume Matcher that analyzes a candidate’s resume,
 }
 
 
-## 💻 Setup Instructions
+ 💻 Setup Instructions
 1. Clone the repo
 
 git clone https://github.com/Nevivaghani/Resume-Matcher.git
@@ -62,7 +62,7 @@ poetry run uvicorn app.main:app --reload
 
 poetry run streamlit run app/frontend/main.py
 
-## 🧪 Testing
+ 🧪 Testing
 
 {
   "job_title": "Machine Learning Engineer",
@@ -72,7 +72,7 @@ poetry run streamlit run app/frontend/main.py
 }
 
 
-### 🧠 Prompt Example (used in matcher.py)
+ 🧠 Prompt Example (used in matcher.py)
 The prompt instructs the LLM to:
 
 Ignore irrelevant sections like "Languages"
