@@ -43,7 +43,7 @@ This project is an AI-based Resume Matcher that analyzes a candidate’s resume,
   "projectSkills": ["CNN", "LSTM", "Data Preprocessing"]
 }
 
---- 
+```
 
 💻 Setup Instructions
 1. Clone the repo
@@ -63,4 +63,4 @@ poetry run uvicorn app.main:app --reload
 
 poetry run streamlit run app/frontend/main.py
 
----
+
