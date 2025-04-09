@@ -43,6 +43,7 @@ This project is an AI-based Resume Matcher that analyzes a candidate’s resume,
   "projectSkills": ["CNN", "LSTM", "Data Preprocessing"]
 }
 
+--- 
 
 💻 Setup Instructions
 1. Clone the repo
@@ -62,25 +63,4 @@ poetry run uvicorn app.main:app --reload
 
 poetry run streamlit run app/frontend/main.py
 
-🧪 Testing
-
-{
-  "job_title": "Machine Learning Engineer",
-  "primarySkills": ["Python", "Machine Learning", "Deep Learning"],
-  "secondarySkills": ["Scikit-learn", "Keras", "Pandas"],
-  "projectSkills": ["CNN", "Logistic Regression", "Data Preprocessing"]
-}
-
-
-🧠 Prompt Example (used in matcher.py)
-The prompt instructs the LLM to:
-
-Ignore irrelevant sections like "Languages"
-
-Extract real work-based skills
-
-Compare with job description by category
-
-Calculate matching percentages
-
-Output results in clean JSON
+---
