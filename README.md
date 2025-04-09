@@ -47,7 +47,7 @@ This project is an AI-based Resume Matcher that analyzes a candidate’s resume,
 ## 💻 Setup Instructions
 1. Clone the repo
 
-git clone https://github.com/your-username/resume-matcher.git
+git clone https://github.com/Nevivaghani/Resume-Matcher.git
 cd resume-matcher
 
 2. Install backend dependencies
